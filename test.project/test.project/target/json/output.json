@@ -1,0 +1,350 @@
+[
+  {
+    "id": "test-case-to-verify-successful-login-and-identify-main-dashboard-of-web-page",
+    "description": "",
+    "name": "Test case to verify successful login and identify main dashboard of web page",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "test-case-to-verify-successful-login-and-identify-main-dashboard-of-web-page;click-on-login-button-without-entering-credentials-and-check-validation-message",
+        "description": "",
+        "name": "Click on login button without entering credentials and check validation message",
+        "keyword": "Scenario",
+        "line": 3,
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "user is on Login Page",
+            "keyword": "Given ",
+            "line": 4,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "clicks on login button",
+            "keyword": "When ",
+            "line": 5,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "web page should display validation message",
+            "keyword": "Then ",
+            "line": 6,
+            "match": {}
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-case-to-verify-successful-login-and-identify-main-dashboard-of-web-page;validate-login-functionality-with-blank-email-and-valid-password-and-check-validation-message",
+        "description": "",
+        "name": "Validate login functionality with blank email and valid password and check validation message",
+        "keyword": "Scenario",
+        "line": 8,
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "user is on Login Page",
+            "keyword": "Given ",
+            "line": 9,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "user enters blank Username and valid Password",
+            "keyword": "When ",
+            "line": 10,
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "",
+                  "pass@123"
+                ],
+                "line": 11
+              }
+            ]
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "clicks on login button",
+            "keyword": "And ",
+            "line": 12,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "web page should display validation message",
+            "keyword": "Then ",
+            "line": 13,
+            "match": {}
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-case-to-verify-successful-login-and-identify-main-dashboard-of-web-page;validate-login-functionality-with-valid-email-and-blank-password-and-check-validation-message",
+        "description": "",
+        "name": "Validate login functionality with valid email and blank password and check validation message",
+        "keyword": "Scenario",
+        "line": 15,
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "user is on Login Page",
+            "keyword": "Given ",
+            "line": 16,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "user enters valid Username and blank Password",
+            "keyword": "When ",
+            "line": 17,
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "shrikant.kanase@gmail.com",
+                  ""
+                ],
+                "line": 18
+              }
+            ]
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "clicks on login button",
+            "keyword": "And ",
+            "line": 19,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "web page should display validation message",
+            "keyword": "Then ",
+            "line": 20,
+            "match": {}
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-case-to-verify-successful-login-and-identify-main-dashboard-of-web-page;validate-login-functionality-with-invalid-email-and-invalid-password-and-check-validation-message",
+        "description": "",
+        "name": "Validate login functionality with Invalid email and Invalid password and check validation message",
+        "keyword": "Scenario",
+        "line": 23,
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "user is on Login Page",
+            "keyword": "Given ",
+            "line": 24,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "user enters Invalid Username and Password",
+            "keyword": "When ",
+            "line": 25,
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "shrikant.kanase@test.com",
+                  "xyz@123"
+                ],
+                "line": 26
+              }
+            ]
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "clicks on login button",
+            "keyword": "And ",
+            "line": 27,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "web page should display validation message",
+            "keyword": "Then ",
+            "line": 28,
+            "match": {}
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-case-to-verify-successful-login-and-identify-main-dashboard-of-web-page;validate-login-functionality-with-invalid-email-and-invalid-password-and-check-validation-message",
+        "description": "",
+        "name": "Validate login functionality with Invalid email and Invalid password and check validation message",
+        "keyword": "Scenario",
+        "line": 30,
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "user is on Login Page",
+            "keyword": "Given ",
+            "line": 31,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "user clicks on forgot passward",
+            "keyword": "When ",
+            "line": 32,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "user should navigate to forgot password screen",
+            "keyword": "Then ",
+            "line": 33,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "Enters valid emailID",
+            "keyword": "And ",
+            "line": 34,
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "shrikant.kanase@gmail.com"
+                ],
+                "line": 35
+              }
+            ]
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "clicks on submit button",
+            "keyword": "And ",
+            "line": 36,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "web page should display mail sent message",
+            "keyword": "And ",
+            "line": 37,
+            "match": {}
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-case-to-verify-successful-login-and-identify-main-dashboard-of-web-page;login-with-valid-credentials-and-verify-successful-login-page",
+        "description": "",
+        "name": "Login with valid credentials and verify successful login page",
+        "keyword": "Scenario",
+        "line": 40,
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "user is on Login Page",
+            "keyword": "Given ",
+            "line": 41,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "user enters valid username and password",
+            "keyword": "When ",
+            "line": 42,
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "shrikant.kanase@gmail.com",
+                  "pass@123"
+                ],
+                "line": 43
+              }
+            ]
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "clicks on login button",
+            "keyword": "And ",
+            "line": 44,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "user should navigate to dashboard screen",
+            "keyword": "Then ",
+            "line": 45,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "close the browser",
+            "keyword": "And ",
+            "line": 46,
+            "match": {}
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "src/test/features/LoginCase.feature"
+  }
+]
