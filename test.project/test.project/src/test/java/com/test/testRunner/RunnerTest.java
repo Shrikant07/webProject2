@@ -12,7 +12,10 @@ import cucumber.api.junit.Cucumber;
 //		plugin = {"com.cucumber.listener.ExtentCucumberFormatter:output/report.html"},
 		format = {"pretty", "json:target/json/output.json", "html:target/html/"},
 		features = {"src/test/features/LoginCase.feature"},
-		glue = {"com.mindvalley.web.stepDefinition"}
+		glue = {"com.mindvalley.web.stepDefinition"},
+	
+		tags = {"@smoke"}
+	
 		)
 public class RunnerTest 
 {
