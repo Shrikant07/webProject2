@@ -35,7 +35,7 @@ Scenario: Validate login functionality with Invalid email and Invalid password a
 	Then web page should display validation message 
 
 @Smoke	
-Scenario: Validate login functionality with Invalid email and Invalid password and check validation message 
+Scenario: Validate forgot password functionality 
 	
 	Given user is on Login Page 
 	When user clicks on forgot passward
