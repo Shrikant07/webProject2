@@ -17,7 +17,7 @@ public interface Locators {
 	
 	public interface Dashboard
 	{
-		String orderLink = ".//*[@id='main-body']/div/div/div[1]/div/h1";
+		String welcomeMsg = ".//*[@id='main-body']/div/div/div[1]/div/h1";
 	}
 	
 	public interface ForgotPassword
