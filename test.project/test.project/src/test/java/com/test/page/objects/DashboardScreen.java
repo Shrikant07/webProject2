@@ -24,7 +24,7 @@ public class DashboardScreen implements Locators.Dashboard
 	{
 		try
 		{
-			if(orderOption.isDisplayed()==true)
+			if(welcome.isDisplayed()==true)
 			{
 				System.out.println("# User logged in successfully !!!");
 			}
