@@ -17,14 +17,14 @@ public class DashboardScreen implements Locators.Dashboard
 	}
 	
 	//page object for my orders tab
-	@FindBy(how = How.XPATH, using = orderLink)
-	private WebElement orderOption;
+	@FindBy(how = How.XPATH, using = welcomeMsg)
+	private WebElement welcome;
 	
 	public void loginSuccess()
 	{
 		try
 		{
-			if(orderOption.isEnabled()==true && orderOption.isDisplayed()==true)
+			if(orderOption.isDisplayed()==true)
 			{
 				System.out.println("# User logged in successfully !!!");
 			}
